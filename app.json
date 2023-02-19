@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Pozwól aplikacji na dostęp do galerii, abyś mógł wybrać zdjęcie ze swoją piękną notatką :)",
+          "cameraPermission": "Pozwól aplikacji na dostęp do kamery, abyś mógł sfotografować swoją piękną notatkę :)"
+        }
+      ], 
+      [
+        "expo-notifications",
+        {
+          "icon":"./assets/icon.png"
+        }
+      ]
+    ],
+    "name": "Noted",
+    "slug": "Noted",
+    "version": "Build 021",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/cb2b23af-de49-47c3-a320-77c7dfe03623"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.notedinc.noted",
+      "buildNumber": "Build021"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.notedinc.noted",
+      "versionCode": 5,
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/splash.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cb2b23af-de49-47c3-a320-77c7dfe03623"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }, 
+    "notification":{
+      "color": "#FF0000",
+      "icon":"assets/icon.png"
+    }
+  }
+}
